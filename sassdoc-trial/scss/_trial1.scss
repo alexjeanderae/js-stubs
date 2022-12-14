@@ -1,0 +1,30 @@
+/// someVarName is the name of a var and it returns the class under it
+/// always put description on top
+/// @name someVarName-ClickMe
+
+.theBestColorScheme{
+    background-color: #bad;
+    border-color: #a55;
+    color: #bada55;
+}
+
+
+
+///bla this is the best utility mixin ever! 
+/// If there was no triple lashes above it, it would not show in the documentation though 
+/// that would be sooooo sad ;'(
+@mixin centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+///@todo TaskTo Bedone
+/// this is text for the documentation
+/// /** what follows is a bunch of hexdecimal colors*/
+/// having @name on top does not return/display the class in the documentation 
+
+.logo_my_co {
+    @include centered;
+}

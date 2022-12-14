@@ -1,0 +1,22 @@
+/// @example
+/// Example 1 for theReturnedColorClass : Roses are #ff0000 aliens are #00ff00 violets are #0000ff
+/// follows RGB
+/// @example Example 2 theReturnedColorClass :returns the name of the class
+.theReturnedColorClass{
+    background-color: #fefefe;
+    border-color:#000;
+    color: #1CE;
+}
+//this class and this comment are not returned
+.theOtherColorScheme1 {
+    background-color: #ff0000;
+    border-color:#00ff00;
+    color: #0000ff;
+}
+
+///this class one will be documented as it has three and not two slashes
+.theOtherColorScheme2 {
+    background-color: #ff0000;
+    border-color:#00ff00;
+    color: #0000ff;
+}
