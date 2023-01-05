@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "foundation-sites": "^6.7.5",
+    "grunt": "^1.5.3",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-sass": "^2.0.0",
+    "node-sass": "^8.0.0"
+  }
+}

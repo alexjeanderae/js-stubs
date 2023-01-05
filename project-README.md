@@ -1,0 +1,4 @@
+# js-stubs
+
+1 - sassdoc-trial is a poke around on documenting sass code. It is a fairly popular library but seems like it is no longer maintained. But it seems perfect for the use case I have on my current project :)
+2- sass-foundation-boiler while jsfiddle and similar tools are great I found having grunt + sass + foundation with boiler responsive code to be a better way to deal with rebuilding UI components. Also this repo is Grunt based not Gulp, and does not require foundation CLI. This folder is meant to be a time saver to work with mixins and variables. Adapted from the starter projects of Foundation https://get.foundation/sites/docs/starter-projects.html and its github https://github.com/foundation/foundation-sites-template
