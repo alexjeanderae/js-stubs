@@ -1,8 +1,16 @@
+
 //  Foundation for Sites Settings
 //  -----------------------------
+
+// In this file are variables and values as assigned by Foundations. But also new variables created for the app.
+// Also existing foundations variables that are used to compile the CSS being assigned new customized values.
+
 //
 //  Table of Contents:
 //
+
+// NEW ! 0. Constants and variables custom for the app
+
 //   1. Global
 //   2. Breakpoints
 //   3. The Grid
@@ -62,6 +70,12 @@
 
 @import '../sass-foundation-boiler/node_modules/foundation-sites/scss/util/util';
 
+// 0. Constants and variables custom for the app
+// ----------------------------------------------
+
+
+
+
 // 1. Global
 // ---------
 
@@ -69,11 +83,11 @@ $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #1779ba,
-  secondary: #767676,
-  success: #3adb76,
-  warning: #ffae00,
-  alert: #cc4b37,
+  primary: #1CE,
+  secondary: #dabeef,
+  success: #00ff00,
+  warning: #0000ff,
+  alert: #ff0000,
 );
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;

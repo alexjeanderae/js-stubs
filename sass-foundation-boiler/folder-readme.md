@@ -1,6 +1,9 @@
 # Sass foundation boiler folder
 I dont follow the  usual folder scss vs js folder separation. As I find it quite annoying. Most of my practice, the JS from foundation is just one file... of one line! No need its own folder. While the scss quickly get very nested. So I reduce the scss nesting already by one level.
 
+## Please keep in mind
+I changed here the imports in the settings file. 1 component is not imported. Instead a custom changed on the component was added.
+
 ## File structure
 - app.scss: where all the SCSS imports happen. Values can be commented out to limit the size of the compiled dist. It can be a time saver. 
 - app.js: where all the JS imports happen. Same idea as app.scss.
